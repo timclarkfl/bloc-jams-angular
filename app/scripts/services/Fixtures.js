@@ -13,7 +13,7 @@
 			    { title: 'Green', duration: '103.96', audioUrl: '/assets/music/green' },
 				{ title: 'Red', duration: '268.45', audioUrl: '/assets/music/red' },
 				{ title: 'Pink', duration: '153.14', audioUrl: '/assets/music/pink' },
-				 { title: 'Magenta', duration: '374.22', audioUrl: '/assets/music/magenta' }
+				{ title: 'Magenta', duration: '374.22', audioUrl: '/assets/music/magenta' }
          ]
      };
  
@@ -30,6 +30,7 @@
 				 { title: 'Can you hear me now?', duration: '3:14' },
 				 { title: 'Wrong phone number', duration: '2:15' }
          ]
+			 
 		 Fixtures.getAlbum = function() {
          	return albumPicasso;
 	 
