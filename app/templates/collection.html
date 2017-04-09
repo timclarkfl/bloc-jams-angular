@@ -1,3 +1,4 @@
+<<<<<<< HEAD
  <section class="album-covers container clearfix">
          <div class="collection-album-container column fourth" ng-repeat="album in collection.albums track by $index">
 		      <img src="{{ album.albumArtUrl }}">
@@ -8,6 +9,18 @@
                  	  <a ui-sref="album">{{ album.artist }}</a>
                  	  <br/>
 					  {{ album.songs.length }} songs
+=======
+  <section class="album-covers container clearfix">
+     <div class="collection-album-container column fourth" ng-repeat="album in collection.albums">
+         <img src="{{ album.albumArtUrl }}">
+         <div class="collection-album-info caption">
+             <p>
+                 <a class="album-name" ui-sref="album">{{ album.title }}</a>
+                 <br/>
+                 <a ui-sref="album">{{ album.artist }}</a>
+                 <br/>
+                 {{ album.songs.length }} songs
+>>>>>>> chkpoint5-ng
                  <br/>
              </p>
          </div>
