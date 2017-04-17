@@ -46,7 +46,7 @@
 					  $document.bind('mousemove.thumb', function(event) {
 						  var percent = calculatePercent(seekBar, event);
 						  scope.$apply(function() {
-							  scope.value = percent * scope.max;
+						  scope.value = percent * scope.max;
 						  });
 					  });
  
